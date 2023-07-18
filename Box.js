@@ -5,7 +5,7 @@ function Box({
   handleRemove,
   width = 5,
   height = 5,
-  backgroundColor = "blue"
+  backgroundColor = "teal"
 }) {
   const remove = () => handleRemove(id);
   return (
@@ -17,7 +17,7 @@ function Box({
           backgroundColor
         }}
       />
-      <button onClick={remove}>Remove The Box!</button>
+      <button onClick={remove}>Eradicate the box!</button>
     </div>
   );
 }
